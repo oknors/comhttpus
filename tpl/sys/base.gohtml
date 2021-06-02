@@ -1,0 +1,15 @@
+{{define "base"}}
+<!doctype html>
+<html>
+<head>
+    {{ template "head" .}}
+    {{ template "style" .}}
+    {{ template "css" .}}
+</head>
+<body>
+{{ template "html" .}}
+{{ template "footer" .}}
+</body>
+{{ template "js" .}}
+</html>
+{{end}}
